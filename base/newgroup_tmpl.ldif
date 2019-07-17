@@ -1,0 +1,7 @@
+dn: cn=testgroup1,ou=Group,dc=ad,dc=example,dc=com
+objectClass: posixGroup
+objectClass: top
+cn: testgroup1
+userPassword: {crypt}x
+gidNumber: 5000
+memberUid: testuser0 testuser1 testuser2 testuser3 testuser4 testuser5 testuser6 testuser7 testuser8

@@ -1,0 +1,5 @@
+dn: olcOverlay={0}ppolicy,olcDatabase={2}hdb,cn=config
+objectClass: olcOverlayConfig
+objectClass: olcPPolicyConfig
+olcOverlay: {0}ppolicy
+olcPPolicyDefault: cn=default,ou=ppolicies,dc=ad,dc=example,dc=com

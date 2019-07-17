@@ -1,0 +1,20 @@
+dn: uid=testuser001,ou=People,dc=ad,dc=example,dc=com
+uid: testuser001
+cn: testuser001
+objectClass: account
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: top
+userPassword: redhat
+loginShell: /bin/bash
+uidNumber: 1501
+gidNumber: 5000
+homeDirectory: /home/testuser001
+shadowLastChange: 17653
+shadowMin: 0
+shadowMax: 99999
+shadowWarning: 7
+shadowInactive: -1
+shadowExpire: -1
+shadowFlag: 0
+

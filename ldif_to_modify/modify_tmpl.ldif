@@ -1,0 +1,5 @@
+dn: cn=user,ou=Persion,dc=ad,dc=example,dc=com
+changetype: modify
+replace: gidNumber
+gidNumber: 1000
+

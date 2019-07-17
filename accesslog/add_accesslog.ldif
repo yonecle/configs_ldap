@@ -1,0 +1,6 @@
+dn: olcOverlay=accesslog,olcDatabase={3}bdb,cn=config
+objectClass: olcOverlayConfig
+objectClass: olcAccessLogConfig
+olcOverlay: accesslog
+olcAccessLogDB: cn=accesslog
+olcAccessLogOps: all

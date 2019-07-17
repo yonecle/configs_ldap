@@ -1,0 +1,65 @@
+dn: dc=ad,dc=example,dc=com
+dc: ad
+objectClass: top
+objectClass: domain
+
+dn: ou=Hosts,dc=ad,dc=example,dc=com
+ou: Hosts
+objectClass: top
+objectClass: organizationalUnit
+
+dn: ou=Rpc,dc=ad,dc=example,dc=com
+ou: Rpc
+objectClass: top
+objectClass: organizationalUnit
+
+dn: ou=Services,dc=ad,dc=example,dc=com
+ou: Services
+objectClass: top
+objectClass: organizationalUnit
+
+dn: nisMapName=netgroup.byuser,dc=ad,dc=example,dc=com
+nismapname: netgroup.byuser
+objectClass: top
+objectClass: nisMap
+
+dn: ou=Mounts,dc=ad,dc=example,dc=com
+ou: Mounts
+objectClass: top
+objectClass: organizationalUnit
+
+dn: ou=Networks,dc=ad,dc=example,dc=com
+ou: Networks
+objectClass: top
+objectClass: organizationalUnit
+
+dn: ou=People,dc=ad,dc=example,dc=com
+ou: People
+objectClass: top
+objectClass: organizationalUnit
+
+dn: ou=Group,dc=ad,dc=example,dc=com
+ou: Group
+objectClass: top
+objectClass: organizationalUnit
+
+dn: ou=Netgroup,dc=ad,dc=example,dc=com
+ou: Netgroup
+objectClass: top
+objectClass: organizationalUnit
+
+dn: ou=Protocols,dc=ad,dc=example,dc=com
+ou: Protocols
+objectClass: top
+objectClass: organizationalUnit
+
+dn: ou=Aliases,dc=ad,dc=example,dc=com
+ou: Aliases
+objectClass: top
+objectClass: organizationalUnit
+
+dn: nisMapName=netgroup.byhost,dc=ad,dc=example,dc=com
+nismapname: netgroup.byhost
+objectClass: top
+objectClass: nisMap
+

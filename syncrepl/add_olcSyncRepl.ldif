@@ -1,0 +1,4 @@
+dn: olcDatabase={2}mdb,cn=config
+changetype: modify
+add: olcSyncRepl
+olcSyncRepl: rid=001 provider=ldap://10.64.221.237/ bindmethod=simple binddn="cn=Manager,dc=ad,dc=example,.dc=com" credentials=redhat searchbase="dc=ad,dc=example,dc=com" type=refreshAndPersist retry="5 5 300 5" timeout=1 interval=00:00:00:60 scope=sub

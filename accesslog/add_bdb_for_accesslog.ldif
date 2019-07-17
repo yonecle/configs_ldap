@@ -1,0 +1,10 @@
+dn: olcDatabase=bdb,cn=config
+objectClass: olcDatabaseConfig
+objectClass: olcBdbConfig
+olcDatabase: bdb
+olcDbDirectory: /var/lib/accesslog
+olcSuffix: cn=accesslog
+olcAccess: to * by dn.base="cn=Manager,dc=ad,dc=example,dc=com"
+olcDbIndex: objectClass eq
+olcDbIndex: reqDN eq
+olcDbIndex: reqStart eq
