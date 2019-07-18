@@ -1,5 +1,7 @@
-dn: cn=user,ou=Persion,dc=ad,dc=example,dc=com
+dn: cn=user,ou=People,dc=ad,dc=example,dc=com
 changetype: modify
+replace: uidNumber
+uidNumber: 1000
+-
 replace: gidNumber
 gidNumber: 1000
-

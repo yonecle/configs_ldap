@@ -1,4 +1,0 @@
-dn: uid=testuser001,ou=People,dc=ad,dc=example,dc=com
-changetype: modify
-replace: shadowLastChange
-shadowLastChange: 17660
