@@ -1,4 +1,4 @@
-dn: cn=ppolicy,ou=policies,dc=ad,dc=example,dc=com
+dn: cn=default,ou=policies,dc=ad,dc=example,dc=com
 objectClass: top
 objectClass: device
 objectClass: pwdPolicy
