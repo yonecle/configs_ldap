@@ -17,5 +17,5 @@ pwdFailureCountInterval: 3600
 pwdCheckQuality: 2
 pwdGraceAuthNLimit: 0
 pwdAllowUserChange: TRUE
-pwdSafeModify: TRUE
+pwdSafeModify: FALSE
 pwdCheckModule: check_password.so
