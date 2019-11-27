@@ -3,9 +3,7 @@ uid: testuser000
 cn: testuser000
 objectClass: account
 objectClass: posixAccount
-objectClass: shadowAccount
 objectClass: top
-objectClass: inetLocalMailRecipient
 objectClass: pwdPolicy
 userPassword: redhat
 pwdAttribute: 2.5.4.35
@@ -13,9 +11,6 @@ loginShell: /bin/bash
 uidNumber: 1500
 gidNumber: 5000
 homeDirectory: /home/testuser000
-mailLocalAddress: testuser000@ad.example.com
-mailHost: mx6-1.ad.example.com
-mailRoutingAddress: testuser000@ad.example.com
 pwdReset: TRUE
 
 dn: uid=testuser001,ou=People,dc=ad,dc=example,dc=com
@@ -23,9 +18,7 @@ uid: testuser001
 cn: testuser001
 objectClass: account
 objectClass: posixAccount
-objectClass: shadowAccount
 objectClass: top
-objectClass: inetLocalMailRecipient
 objectClass: pwdPolicy
 userPassword: redhat
 pwdAttribute: 2.5.4.35
@@ -33,7 +26,4 @@ loginShell: /bin/bash
 uidNumber: 1501
 gidNumber: 5000
 homeDirectory: /home/testuser001
-mailLocalAddress: testuser001@ad.example.com
-mailHost: mx6-1.ad.example.com
-mailRoutingAddress: testuser001@ad.example.com
 pwdReset: TRUE

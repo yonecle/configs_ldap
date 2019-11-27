@@ -2,6 +2,7 @@ dn: cn=ppolicy,ou=policies,dc=ad,dc=example,dc=com
 objectClass: top
 objectClass: device
 objectClass: pwdPolicy
+objectClass: pwdPolicyChecker
 cn: ppolicy
 pwdAttribute: userPassword
 pwdMustChange: TRUE
@@ -17,4 +18,4 @@ pwdCheckQuality: 2
 pwdGraceAuthNLimit: 0
 pwdAllowUserChange: TRUE
 pwdSafeModify: TRUE
-pwdPolicyChecker: check_password.so
+pwdCheckModule: check_password.so
